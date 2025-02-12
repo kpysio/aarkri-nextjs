@@ -17,12 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body
-        style={{
-          backgroundColor: "lightyellow",
-          padding: "0",
-        }}
-      >
+      <body>
         <header>
           <StudyNavBar></StudyNavBar>
         </header>
@@ -35,7 +30,7 @@ export default function RootLayout({
             padding: "1rem",
           }}
         >
-          <p>Footer</p>
+          <p>Study Footer</p>
         </footer>
       </body>
     </html>

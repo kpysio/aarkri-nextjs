@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import InvestNavBar from "./InvestNavbar.js";
+import InvestNavBar from "./InvestNavbar";
 // import { ErrorWrapper } from "./error-wrapper";
 
 export const metadata: Metadata = {
@@ -17,25 +17,15 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body
-        style={{
-          backgroundColor: "lightpink",
-          padding: "0",
-        }}
-      >
+      <body>
         <header>
           <InvestNavBar></InvestNavBar>
         </header>
         {/* <ErrorWrapper> */}
         {children}
         {/* </ErrorWrapper> */}
-        <footer
-          style={{
-            backgroundColor: "ghostwhite",
-            padding: "1rem",
-          }}
-        >
-          <p>Footer</p>
+        <footer>
+          <p>Investment Footer</p>
         </footer>
       </body>
     </html>

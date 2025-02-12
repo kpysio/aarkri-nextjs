@@ -17,25 +17,15 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body
-        style={{
-          backgroundColor: "lightblue",
-          padding: "0",
-        }}
-      >
+      <body>
         <header>
           <TrainingNavBar></TrainingNavBar>
         </header>
         {/* <ErrorWrapper> */}
         {children}
         {/* </ErrorWrapper> */}
-        <footer
-          style={{
-            backgroundColor: "ghostwhite",
-            padding: "1rem",
-          }}
-        >
-          <p>Footer</p>
+        <footer>
+          <p>Training Footer</p>
         </footer>
       </body>
     </html>

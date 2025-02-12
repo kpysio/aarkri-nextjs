@@ -32,7 +32,7 @@ export default function RootLayout({
             padding: "1rem",
           }}
         >
-          <p>Footer</p>
+          <p>Group Footer</p>
         </footer>
       </body>
     </html>
