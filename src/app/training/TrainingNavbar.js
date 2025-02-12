@@ -9,9 +9,9 @@ const Navbar = () => {
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
               <div className="flesx-shrink-0">
-                <a href="/" className="text-white">
+                <Link href="/" className="text-white">
                   Training Logo
-                </a>
+                </Link>
               </div>
             </div>
             <div className="hidden md:block">
@@ -35,18 +35,18 @@ const Navbar = () => {
                 >
                   Contact
                 </Link>
-                <a
+                <Link
                   href="/training/training-why"
                   className="text-white hover:bg-white hover:text-black rounded-lg p-2"
                 >
                   What we are offering
-                </a>
-                <a
+                </Link>
+                <Link
                   href="/"
                   className="text-white hover:bg-white hover:text-black rounded-lg p-2"
                 >
                   Aarkri Group
-                </a>
+                </Link>
               </div>
             </div>
           </div>
